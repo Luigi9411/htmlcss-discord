@@ -20,6 +20,11 @@ a{
     color: white;
     text-decoration: none;
     padding-right: 40px;
+    font-family: 'Fredoka One', corsivo;
+                  famiglia di caratteri: 'Mochiy Pop P One', sans-serif;
+                  famiglia di caratteri: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
 }
 
 .nav3{
@@ -29,6 +34,61 @@ a{
     background-color: white;
     border-radius: 16px;
     border: none;
+   
+}
+
+/* header */
+
+.container-flex2{
+    height: 430px;
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 75%;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family:'Fredoka One', corsivo;
+                 famiglia di caratteri: 'Mochiy Pop P One', sans-serif;
+                 famiglia di caratteri: 'Roboto', sans-serif;
+}
+
+.header-item{
+    margin-bottom: 20px;
+    font-size: 54px;
+}
+
+.header-item1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.freccia{
+    font-size: 30px;
+    vertical-align: sub;
+}
+
+.pulsante{
+    width: 195px;
+    margin: 12px 10px;
+    padding: 3px 2px;
+    background-color: white;
+    border-radius: 35px;
+    border: none;
+    font-size: 20px;
 }
 
 
+.pulsante1{
+    width: 289px;
+    margin: 17px 2px;
+    padding: 12px 8px;
+    background-color:black;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
