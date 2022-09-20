@@ -66,7 +66,7 @@ li {
 }
 /* header */
 
-.container-flex2{
+.container-flex{
     height: 430px;
     background-image: url(../img/jumbo.png);
     background-size:cover;
@@ -85,36 +85,30 @@ li {
 }
 
 .header-item1{
-    margin-bottom: 20px;
     text-align: center;
-    font-size: 23px;
+    line-height: 1.5rem;
+}
+
+.header-item2{
+    margin-top: 1em;
 }
 
 .freccia{
-    font-size: 30px;
+    font-size: 150%;
     vertical-align: sub;
 }
 
-.pulsante{
-    width: 195px;
-    margin: 12px 10px;
-    padding: 3px 2px;
-    background-color: white;
-    border-radius: 35px;
-    border: none;
-    font-size: 20px;
+.btn2 {
+	display: inline-block;
+	padding: 1.1em 1em;
+	border-radius: 10em;
+	text-decoration: none;
+    margin-left: 1em;
 }
 
-
-.pulsante1{
-    width: 289px;
-    margin: 17px 2px;
-    padding: 12px 8px;
-    background-color:black;
-    border-radius: 35px;
-    border: none;
-    color: white;
-    font-size: 20px;
+.btn-black {
+	background-color: black;
+	color: white;
 }
 
 /* main */
