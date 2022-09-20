@@ -4,39 +4,66 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* nav */
 
-.container-flex{
-    height: 69px;
+nav{
     background-color: #255EE9;
-    display: flex;
-    align-items: center;  
-    justify-content: space-between;
-    padding: 0 145px;
-
 }
 
-a{
-    color: white;
-    text-decoration: none;
-    padding-right: 40px;
-    font-family: 'Fredoka One', corsivo;
-                  famiglia di caratteri: 'Mochiy Pop P One', sans-serif;
-                  famiglia di caratteri: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400; 
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-.nav3{
-    width: 60px;
-    margin: 17px 18px;
-    padding: 9px 2px;
-    background-color: white;
-    border-radius: 16px;
-    border: none;
-   
+.menu-top {
+	height: 4em;
 }
 
+ul {
+	display: flex;
+	height: 100%;
+}
+
+li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+ .menu-top .menu-link {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 1em;
+	margin: 0 .3em;
+	color: white;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.menu-top .logo {
+	margin-right: auto;
+}
+
+.menu-top .accedi {
+	margin-left: auto;
+}
+
+.btn {
+	display: inline-block;
+	padding: 0.7em 1em;
+	border-radius: 10em;
+	text-decoration: none;
+}
+
+.btn-white {
+	background-color: white;
+	color: black;
+}
 /* header */
 
 .container-flex2{
@@ -50,9 +77,6 @@ a{
     justify-content: center;
     flex-direction: column;
     color: white;
-    font-family:'Fredoka One', corsivo;
-                 famiglia di caratteri: 'Mochiy Pop P One', sans-serif;
-                 famiglia di caratteri: 'Roboto', sans-serif;
 }
 
 .header-item{
@@ -91,4 +115,66 @@ a{
     border: none;
     color: white;
     font-size: 20px;
+}
+
+/* main */
+
+/* section */
+.container-flex3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section-item{
+    width: 678px;
+    height: 430px;
+}
+
+.section-item1{
+    width: 678px;
+    height: 430px;
+}
+
+.section-testo{
+    font-size: 48px;
+    padding-top: 32px;
+    padding-bottom: 30px;
+    
+}
+
+.section-testo1{
+    font-size: 19px;
+   }
+
+/* section */
+
+.container-flex4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 60px;
+  
+}
+
+.section-item2{
+    width: 678px;
+    height: 430px;
+    margin-left: 30px;
+}
+
+.section-item3{
+    width: 678px;
+    height: 430px;
+}
+
+
+.section-testo{
+    font-size: 48px;
+    padding-top: 32px;
+    padding-bottom: 30px;
+    }
+
+.section-testo1{
+    font-size: 19px;
 }
