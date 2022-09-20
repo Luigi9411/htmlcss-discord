@@ -113,21 +113,24 @@ li {
 
 /* main */
 
-/* section */
-.container-flex3{
+/* section 1-3 */
+.container-flex2{
     display: flex;
-    justify-content: center;
-    
+    height: 430px; 
+    margin-bottom: 50px; 
 }
 
 .section-item{
-    width: 678px;
-    height: 430px;
+    flex-basis: 628px;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .section-item1{
-    width: 678px;
-    height: 430px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-left: -200px;
 }
 
 .section-testo{
@@ -139,36 +142,30 @@ li {
 
 .section-testo1{
     font-size: 19px;
+    line-height: 1.5rem;
    }
 
-/* section */
+   /* section2 */
 
-.container-flex4{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    margin-top: 60px;
-  
-}
+   .sfondo{
+    background-color: aqua;
+   }
 
-.section-item2{
-    width: 678px;
-    height: 430px;
-    margin-left: 30px;
+   .section-item2{
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .section-item3{
-    width: 678px;
-    height: 430px;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-left: -300px;
 }
 
-
-.section-testo{
-    font-size: 48px;
-    padding-top: 32px;
-    padding-bottom: 30px;
-    }
-
-.section-testo1{
-    font-size: 19px;
+.top1{
+    margin-bottom: 4rem;
 }
