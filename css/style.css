@@ -253,3 +253,14 @@ footer{
 .ultima-img{
     margin-top:-3em ;
 }
+
+/* onde */
+
+.wave{
+    display: block;
+    width: 100%;
+}
+
+.rotated{
+    transform: rotateZ(180deg) rotateY(180deg);
+}
